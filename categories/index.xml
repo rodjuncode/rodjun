@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
-    <link>https://rodjuncode.github.io/rodjun/categories/</link>
-    <description>Recent content in Categories on </description>
+    <title>Categories on RodJun - Rodrigo Junqueira</title>
+    <link>https://rodjun.com/categories/</link>
+    <description>Recent content in Categories on RodJun - Rodrigo Junqueira</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://rodjuncode.github.io/rodjun/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://rodjun.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
