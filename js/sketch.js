@@ -1,9 +1,9 @@
-var MANDALA_LEVEL = 180;
+var MANDALA_LEVEL = 125;
 var BASE_ROTATION = 30;
 var SEGMENT_LIMIT = 2000;
 var MOUSE_AMP = 1;
 var CURSOR_RATE = 1;
-var HORIZONTAL_LIMIT = view.size.width/2;
+var MANDALA_LIMIT = view.size.width/2;
 
 var frame = 0;
 var mouseDelta = 0;
@@ -29,10 +29,10 @@ function onFrame(event) {
     path.rotate(BASE_ROTATION + mouseDelta);
     path.scale(0.999);
     cursor.x += CURSOR_RATE*dir;
-    if (cursor.x > start.x + HORIZONTAL_LIMIT) {
+    if (cursor.x > start.x + MANDALA_LIMIT) {
         dir = -1;
     }
-    if (cursor.x < start.x - HORIZONTAL_LIMIT) {
+    if (cursor.x < start.x - MANDALA_LIMIT) {
         dir = 1;
     }
     if (path.segments.length > SEGMENT_LIMIT) {
@@ -44,6 +44,5 @@ function onFrame(event) {
     mouseDelta = 0;
     path.position.x = view.size.width/2;
     path.position.y = MANDALA_LEVEL;
-    console.log(path.segments.length);
 
 }

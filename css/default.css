@@ -60,14 +60,14 @@ a {
 }
 
 .container > header {
-	padding: 60px 30px 50px;
+	padding: 20px 30px 10px;
 	text-align: center;
 }
 
 .container > header h1 {
 	font-family: 'Unlock';
-	font-size: 80px;
-	line-height: 80px;
+	font-size: 60px;
+	line-height: 60px;
 	margin: 0 auto;
 	font-weight: 700;
 	color: #333;
@@ -76,9 +76,9 @@ a {
 .container > header h1 span {
 	font-family: 'Big Shoulders Text';
 	display: block;
-	font-size: 38px;
+	font-size: 25px;
 	font-weight: 100;
-	color: #666;
+	color: #000;
 }
 
 .main > p {
