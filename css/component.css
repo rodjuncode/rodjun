@@ -123,6 +123,13 @@
 	color: #ec2f4b;
 }
 
+.og-details p label {
+	background:linear-gradient(130deg, #009fff,	#ec2f4b);
+	display: inline;
+	padding: 0 5px;
+	color: #fff;
+}
+
 .og-details a {
 	font-weight: 700;
 	font-size: 16px;
@@ -132,7 +139,7 @@
 	padding: 10px 20px;
 	border: 3px solid #333;
 	display: inline-block;
-	margin: 30px 0 0;
+	margin: 30px 10px 0 0;
 	outline: none;
 }
 
@@ -143,8 +150,8 @@
 }
 
 .og-details a:hover {
-	border-color: #999;
-	color: #999;
+	border-color: #009fff;
+	color: #009fff;
 }
 
 .og-loading {
