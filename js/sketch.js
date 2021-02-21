@@ -1,5 +1,4 @@
-var MANDALA_LEVEL = 125;
-//var MANDALA_LEVEL = view.size.height/2;
+var MANDALA_LEVEL = 145;
 var BASE_ROTATION = 30;
 var SEGMENT_LIMIT = 2000;
 var MOUSE_AMP = 5;
@@ -11,7 +10,6 @@ var mouseDelta = 0;
 
 var dir = 1;
 var kill_rate = 5;
-
 
 var start = new Point(view.size.width/2, 0);
 var cursor = start.clone();
@@ -32,7 +30,6 @@ rect.sendToBack();
 var path = new Path();
 path.strokeColor = '#7ac9ff';
 path.strokeWidth = 1;
-//path.opacity = 0.5;
 path.dashArray = [50, 100];
 
 function onMouseMove(event) {
@@ -59,6 +56,5 @@ function onFrame(event) {
     mouseDelta = 0;
     path.position.x = view.size.width/2;
     path.position.y = MANDALA_LEVEL;
-
 }
 

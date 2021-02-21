@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #EFCC00;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -68,7 +68,7 @@
 	width: 100%;
 	top: 50%;
 	height: 1px;
-	background: #888;
+	background: #000;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -109,6 +109,7 @@
 }
 
 .og-details h3 {
+	font-family: 'Tambau-Display';
 	font-weight: 300;
 	font-size: 52px;
 	padding: 40px 0 10px;
@@ -117,8 +118,8 @@
 
 .og-details p {
 	font-weight: 400;
-	font-size: 28px;
-	line-height: 36px;
+	font-size: 30px;
+	line-height: 40px;
 	color: #ec2f4b;
 }
 

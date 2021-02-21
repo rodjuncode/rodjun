@@ -23,6 +23,6 @@
   
 @font-face {
   font-family: "Tambau-Display";
-  src: url('webFonts/TambauDisplay/font.woff2') format('woff2'), url('webFonts/TambauDisplay/font.woff') format('woff');
+  src: url('{{ .Site.BaseURL }}/fonts/webFonts/TambauDisplay/font.woff2') format('woff2'), url('{{ .Site.BaseURL }}/fonts/webFonts/TambauDisplay/font.woff') format('woff');
 }
 
