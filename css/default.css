@@ -42,7 +42,7 @@ body {
 }
 
 a {
-	color: #555;
+	color: #EFCC00;
 	text-decoration: none;
 }
 
@@ -56,29 +56,28 @@ a {
 	max-width: 1240px;
 	margin: 0 auto;
 	position: relative;
-	padding: 0 30px 50px 30px;
 }
 
 .container > header {
-	padding: 20px 30px 10px;
+	padding: 20px 30px 0px;
 	text-align: center;
 }
 
 .container > header h1 {
-	font-family: 'Unlock';
+	font-family: 'Tambau-Display';
 	font-size: 60px;
 	line-height: 60px;
 	margin: 0 auto;
 	font-weight: 700;
-	color: #333;
+	color: #fff;
 }
 
 .container > header h1 span {
 	font-family: 'Big Shoulders Text';
 	display: block;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 100;
-	color: #000;
+	color: #fff;
 }
 
 .main > p {
@@ -90,19 +89,20 @@ footer {
 	margin: 0 auto;
 	padding: 0 0 20px 0;
 	text-align: center;
+	color: #efcc00;	
 }
 
 header > a > i.fab, i.fas {
 	display: inline;
 	margin: 0 10px;
-	line-height: 70px;
+	line-height: 80px;
 	font-size: 35px !important;
-	color: #333;
+	color: #fff;
 }
 
 .tippy-box[data-theme~='gradient-tippy'] {
-	background:linear-gradient(130deg,#507bf4,#ff8bcb);
-	box-shadow:0 8px 12px #c9a0ff;
+	background:linear-gradient(130deg, #FF01D1,	#F1D200);
+	box-shadow:0 8px 12px #d9a7c7;
 	font-weight:bold;
 	font-size: 16px;
 }

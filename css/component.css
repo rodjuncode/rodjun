@@ -3,7 +3,7 @@
 	padding: 20px 0;
 	margin: 0 auto;
 	text-align: center;
-	width: 100%;
+	width: 90%;
 }
 
 .og-grid li {
@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #EFCC00;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -117,9 +117,9 @@
 
 .og-details p {
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #999;
+	font-size: 28px;
+	line-height: 36px;
+	color: #ec2f4b;
 }
 
 .og-details a {

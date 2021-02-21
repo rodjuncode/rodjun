@@ -1,9 +1,10 @@
 var MANDALA_LEVEL = 125;
+//var MANDALA_LEVEL = view.size.height/2;
 var BASE_ROTATION = 30;
 var SEGMENT_LIMIT = 2000;
-var MOUSE_AMP = 1;
+var MOUSE_AMP = 5;
 var CURSOR_RATE = 1;
-var MANDALA_LIMIT = view.size.width/2;
+var MANDALA_LIMIT = view.size.width*.45;
 
 var frame = 0;
 var mouseDelta = 0;
@@ -15,10 +16,24 @@ var kill_rate = 5;
 var start = new Point(view.size.width/2, 0);
 var cursor = start.clone();
 
+var rect = new Path.Rectangle({
+    point: [0, 0],
+    size: [view.size.width, view.size.height],
+    fillColor: {
+        gradient: {
+            stops: ['#009fff', '#ec2f4b']
+        },
+        origin: new Point(view.size.width/2,0),
+        destination: new Point(view.size.width/2,view.size.height)
+    },
+});
+rect.sendToBack();
+
 var path = new Path();
-path.strokeColor = '#666';
-path.strokeWidth = 0.5;
-path.dashArray = [50, 50];
+path.strokeColor = '#7ac9ff';
+path.strokeWidth = 1;
+//path.opacity = 0.5;
+path.dashArray = [50, 100];
 
 function onMouseMove(event) {
     mouseDelta = event.delta.length*MOUSE_AMP;
@@ -46,3 +61,4 @@ function onFrame(event) {
     path.position.y = MANDALA_LEVEL;
 
 }
+
