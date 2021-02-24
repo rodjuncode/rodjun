@@ -19,7 +19,7 @@ var rect = new Path.Rectangle({
     size: [view.size.width, view.size.height],
     fillColor: {
         gradient: {
-            stops: ['#009fff', '#ec2f4b']
+            stops: ['#0006F5', '#ec2f4b']            
         },
         origin: new Point(view.size.width/2,0),
         destination: new Point(view.size.width/2,view.size.height)
